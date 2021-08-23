@@ -1,4 +1,4 @@
-# FTX-dynamic-grid-trading-bot
+# Leveraged-grid-trading-bot
 
 The code is designed to perform [grid trading](https://www.gridtradingcourse.com/articles/what-is-grid-trading.php) strategy in [FTX exchange](https://ftx.com/).
 
@@ -14,7 +14,7 @@ If the trader termineated accidentally, the next execution of trader will follow
 
 ## How dynamically?
 
-Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency.
+Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency (can be regarded as leveraged grid trading from the view of infinity grid trading) .
 
 # Reguired packages
 
