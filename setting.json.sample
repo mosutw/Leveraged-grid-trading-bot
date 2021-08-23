@@ -1,0 +1,15 @@
+{
+  "LOGFILE":"ftx.log",
+  "apiKey":"",
+  "secret":"",
+  "sub_account":"GridBot",
+  "symbol":"ETH/USD",
+  "grid_level":3,
+  "amount":0.001,
+  "interval_prof":2,
+  "db_table_name":"",
+  "db_host":"",
+  "db_user":"",
+  "db_passwd":"",
+  "db_database":""
+}
