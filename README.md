@@ -16,9 +16,10 @@ The bot will show the following information in log file:
 
 1. Cash flow
 2. Realized profit, averaged profit per day (Not including fee)
-3. Total volumne, averaged volume per day
-4. Maker ratio of closed orders
-5. Transaction fee
+3. Total volume, averaged volume per day
+4. Maker ratio in all filled orders
+5. Number of filled orders
+6. Transaction fee
 
 ## How leveraged?
 
