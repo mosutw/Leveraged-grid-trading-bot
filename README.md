@@ -1,6 +1,6 @@
 # Leveraged-grid-trading-bot
 
-The code is designed to perform [grid trading](https://www.gridtradingcourse.com/articles/what-is-grid-trading.php) strategy in [FTX exchange](https://ftx.com/).
+The code is designed to perform infinity [grid trading](https://www.gridtradingcourse.com/articles/what-is-grid-trading.php) strategy in [FTX exchange](https://ftx.com/).
 
 The basic trader named ***Gridtrader.py*** control the number of grids dynamically using the setting in JSON file.
 
@@ -12,9 +12,9 @@ If the trader termineated accidentally, the next execution of trader will follow
 
 > It is recommended to execeute the code in Linux system with Python version 3.7+.
 
-## How dynamically?
+## How leveraged?
 
-Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency (can be regarded as leveraged grid trading from the view of infinity grid trading) .
+Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency. The funds may not be enough to afford the infinity grid trading under the same parameter settings, so it can be regarded as leveraged grid trading.
 
 # Reguired packages
 
