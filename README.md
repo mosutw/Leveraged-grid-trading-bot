@@ -12,6 +12,14 @@ If the trader termineated accidentally, the next execution of trader will follow
 
 > It is recommended to execeute the code in Linux system with Python version 3.7+.
 
+The bot will show the following information in log file:
+
+1. Cash flow
+2. Realized profit, averaged profit per day (Not including fee)
+3. Total volumne, averaged volume per day
+4. Maker ratio of closed orders
+5. Transaction fee
+
 ## How leveraged?
 
 Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency. The funds may not be enough to afford the infinity grid trading under the same parameter settings, so it can be regarded as leveraged grid trading.
