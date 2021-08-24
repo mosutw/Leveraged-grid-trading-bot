@@ -58,7 +58,7 @@ The price difference of grids is set as ***interval_prof*** . For each transacti
 
 ## Cautions
 
-It is recommended to create a subaccount to use this trading bot to avoid your orders being cancelled by the bot at the beginning.
+<span style="color:blue">It is recommended to create a subaccount to use this trading bot to avoid your orders being cancelled by the bot at the beginning.</span>
 
 # Examples
 
