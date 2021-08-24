@@ -56,6 +56,10 @@ The price difference of grids is set as ***interval_prof*** . For each transacti
 2. Edit the parameters in `setting.json`
 3. Run the command (See examples).
 
+## Cautions
+
+It is recommended to create a subaccount to use this trading bot to avoid your orders being cancelled by the bot at the beginning.
+
 # Examples
 
 ## Without async support and without database
