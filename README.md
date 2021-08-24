@@ -23,7 +23,7 @@ The bot will show the following information in log file:
 
 ## How leveraged?
 
-Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency. The funds may not be enough to afford the infinity grid trading under the same parameter settings, so it can be regarded as leveraged grid trading.
+Most of the funds is locked in normal grid trading bot, while this bot will only create limit orders near the market price (controlled by parameters in setting file). Under this circumstance, the profit can be much greater for short-term price volatility by increasing the transaction frequency. The funds may not be enough to afford the infinity grid trading under the same parameter settings, so it can be regarded as leveraged trading policy.
 
 # Reguired packages
 
